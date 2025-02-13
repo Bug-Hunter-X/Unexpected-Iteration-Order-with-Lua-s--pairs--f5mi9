@@ -1,0 +1,2 @@
+# Lua pairs iterator unexpected behavior
+This repository demonstrates a potential issue with Lua's `pairs` iterator when dealing with tables containing non-integer keys.  The `pairs` function does not guarantee a specific iteration order, leading to unpredictable results if the table structure is modified during iteration.  The example provided shows how this can result in an infinite loop or skipping elements.  A solution is provided to illustrate how to resolve the problem through careful table traversal and key management.
